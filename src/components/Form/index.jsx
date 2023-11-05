@@ -135,6 +135,7 @@ const Form = () => {
             className="form-field"
             id="email"
             name="email"
+            placeholder="you@website.com"
             onChange={handleChange}
           ></textarea>
         </div>
