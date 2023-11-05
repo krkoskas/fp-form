@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@font-face {
+  font-family: Teodor;
+  src: url(TeodorTRIAL-Medium.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'DM Sans', sans-serif;
+  line-height: 24px;
+}
+
+
+h1 {
+  font-family: 'Teodor', sans-serif;
+}
