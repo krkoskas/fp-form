@@ -172,17 +172,18 @@ const Form = () => {
         <button type="submit" className="form_button">
           Submit Application
         </button>
+        {submitTracker ? (
+            <Results
+                firstname={displayUser.firstname}
+                lastname={displayUser.lastname}
+                email={displayUser.email}
+                linkedin={displayUser.linkedin}
+                motivation={displayUser.motivation}
+                skills={displayUser.skills}
+            />
+        ) : null}
       </form>
-      {submitTracker ? (
-        <Results
-          firstname={displayUser.firstname}
-          lastname={displayUser.lastname}
-          email={displayUser.email}
-          linkedin={displayUser.linkedin}
-          motivation={displayUser.motivation}
-          skills={displayUser.skills}
-        />
-      ) : null}
+
     </>
   );
 };

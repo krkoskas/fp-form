@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 const Results = ({
   firstname,
@@ -13,12 +14,12 @@ const Results = ({
       <div className="results_bar"></div>
       <div className="results_status">
         <h2 className="results_heading">Thank you for your application!</h2>
-        <p>First Name: {firstname}</p>
-        <p>Last Name: {lastname}</p>
-        <p>Email Address: {email}</p>
-        <p>LinkedIn URL: {linkedin}</p>
-        <p>Why do you want to become a part of the Femme Palette team? {motivation}</p>
-        <p>Why are you the best candidate for this role? {skills}</p>
+        <div className="results_line">First Name: {firstname}</div>
+        <div className="results_line">Last Name: {lastname}</div>
+        <div className="results_line">Email Address: {email}</div>
+        <div className="results_line">LinkedIn URL: {linkedin}</div>
+        <div className="results_line">Why do you want to become a part of the Femme Palette team? <p>{motivation}</p></div>
+        <div className="results_line">Why are you the best candidate for this role? <p>{skills}</p></div>
       </div>
     </div>
   );
