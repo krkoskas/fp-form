@@ -13,6 +13,13 @@ textarea {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
+
+textarea:focus {
+    outline: none !important;
+    border-color: #47888a;
+    transition: border-color 0.3s ease;
+}
+
 .form_double {
     display: flex;
 }
@@ -34,10 +41,12 @@ textarea {
     font-size: 15px;
     padding: 0.8em;
     resize: none;
+    overflow: hidden;
 }
 
 .form-field_tall {
     min-height: 20em;
+    overflow: auto;
 }
 
 .form_button {

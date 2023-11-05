@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url(//fonts.googleapis.com/css?family=DM+Sans);
 @font-face {
   font-family: Teodor;
   src: url(TeodorTRIAL-Medium.otf);
 }
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 
 * {
   box-sizing: border-box;
